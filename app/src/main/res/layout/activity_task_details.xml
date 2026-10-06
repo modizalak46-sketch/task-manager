@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Task Details"
+            android:textColor="#3155A6"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View and manage your task"
+            android:textColor="#777777"
+            android:textSize="15sp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Task Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="20dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Complete Android Project"
+                android:textColor="#222222"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Description -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textColor="#3155A6"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Complete the Daily Task Manager Android project and test all features."
+                android:textColor="#555555"
+                android:textSize="16sp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Date -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📅  Date"
+                android:textColor="#3155A6"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 October 2026"
+                android:textColor="#555555"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Time -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⏰  Time"
+                android:textColor="#3155A6"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10:00 AM"
+                android:textColor="#555555"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Priority -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⭐  Priority"
+                android:textColor="#3155A6"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="High"
+                android:textColor="#D32F2F"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Status -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✓  Status"
+                android:textColor="#3155A6"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pending"
+                android:textColor="#F57C00"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+
+        <!-- Buttons -->
+
+        <Button
+            android:id="@+id/btnComplete"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="✓  MARK AS COMPLETE"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="#3155A6"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/btnEditTask"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="EDIT TASK"
+            android:textColor="#3155A6"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="#E3E9F7"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnDeleteTask"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="DELETE TASK"
+            android:textColor="#D32F2F"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="#FDECEC"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>
