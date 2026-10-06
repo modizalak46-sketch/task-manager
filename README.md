@@ -27,13 +27,7 @@ A clean, intuitive, and feature-rich native Android application designed to help
 
 ---
 
-## 📸 App Screenshots & Demo
 
-| Main Dashboard | Add New Task | Task Filtering |
-| :---: | :---: | :---: |
-| *(Add Screenshot 1)* | *(Add Screenshot 2)* | *(Add Screenshot 3)* |
-
----
 
 ## 🚀 How to Run locally
 
